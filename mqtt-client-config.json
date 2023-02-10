@@ -1,0 +1,14 @@
+{
+	"username":	"mqttBrokerUsername",
+	"password": "thatUsersPassword",
+	"subscribeTopics": [
+						"$SYS/#"
+						],
+	"subscribeQos":	2,
+	"keepAlive":	60,
+	"port":	1883,
+	"mqttBroker":	"localhost",
+	"clientId": "mqtt-to-csv",
+	"outputFilename": "readings.csv",
+	"outputFileDelimiter": ","
+}
